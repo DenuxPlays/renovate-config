@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Groups all `sea-orm-*` crates together",
+  "packageRules": [
+      {
+        "groupName": "sea-orm crates",
+        "matchDatasources": ["cargo"],
+        "matchPackageNames": [
+          "sea-orm",
+          "sea-orm-migration",
+          "sea-orm-codegen",
+          "sea-orm-cli",
+          "sea-orm-macros"
+        ]
+      }
+    ]
+}
