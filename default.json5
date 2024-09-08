@@ -8,8 +8,10 @@
   ],
   "rangeStrategy": "bump",
   "updateLockFiles": true,
-  "lockFileMaintenance": { 
+  "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["before 4am on monday"]
+    "schedule": [
+      "before 4am on monday"
+    ]
   }
 }

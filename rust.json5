@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "github>DenuxPlays/renovate-config:default",
+    "github>Turbo87/renovate-config//rust/updateToolchain",
+    "github>DenuxPlays/renovate-config//rust/groupSeaQL",
+  ],
+}
