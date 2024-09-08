@@ -21,12 +21,9 @@ jobs:
         with:
           node-version: latest
 
-      - name: Install renovate-config-validator package
-        run: npm install -g renovate-config-validator
-
       - name: Validate JSON5 files
         run: |
           find . -name '*.json5' -print0 | while IFS= read -r -d '' file; do
             echo "Validating $file"
-            renovate-config-validator "$file" --strict
+            npx --yes --package renovate -- renovate-config-validator "$file" --strict
           done
