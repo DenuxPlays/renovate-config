@@ -24,6 +24,7 @@ jobs:
       - name: Validate JSON5 files
         env:
           NODE_NO_WARNINGS: '1'
+          NPM_CONFIG_LOGLEVEL: 'error'
         run: |
           find . -name '*.json5' -print0 | while IFS= read -r -d '' file; do
             echo "Validating $file"
