@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base",
+    "config:recommended",
     ":dependencyDashboard",
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
@@ -10,8 +10,6 @@
   "updateLockFiles": true,
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": [
-      "before 4am on monday"
-    ]
+    "schedule": ["before 4am on monday"]
   }
 }
