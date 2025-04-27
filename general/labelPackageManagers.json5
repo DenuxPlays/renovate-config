@@ -97,7 +97,7 @@
         "velaci",
         "vendir",
         "woodpecker",
-        "regex",
+        "custom.regex"
       ],
       "addLabels": [
         "{{lowercase manager}}"
