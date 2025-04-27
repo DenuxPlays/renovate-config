@@ -89,7 +89,15 @@
         "swift",
         "tekton",
         "terraform",
-        "terraform-versi",
+        "terraform-version",
+        "terragrunt",
+        "terragrunt-version",
+        "tflint-plugin",
+        "travis",
+        "velaci",
+        "vendir",
+        "woodpecker",
+        "regex",
       ],
       "addLabels": [
         "{{lowercase manager}}"
