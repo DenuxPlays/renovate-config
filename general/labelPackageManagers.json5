@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Labels PRs with the package manager datasource used for updates",
+  "packageRules": [
+    {
+      "addLabels": ["{{datasource}}"]
+    }
+  ]
+}
