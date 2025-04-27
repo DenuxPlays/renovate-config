@@ -5,8 +5,8 @@
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
     ":semanticCommitsDisabled",
-//    "github>DenuxPlays/renovate-config//general/splitLockfileMaintenance.json5",
-//    "github>DenuxPlays/renovate-config//general/labelPackageManagers.json5",
+    "github>DenuxPlays/renovate-config//general/splitLockfileMaintenance.json5",
+    "github>DenuxPlays/renovate-config//general/labelPackageManagers.json5",
   ],
   "updateLockFiles": true,
   "lockFileMaintenance": {
