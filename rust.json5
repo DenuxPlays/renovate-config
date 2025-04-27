@@ -4,4 +4,5 @@
     "github>Turbo87/renovate-config//rust/updateToolchain",
     "github>DenuxPlays/renovate-config//rust/groupSeaQL.json5",
   ],
+  "rangeStrategy": "bump"
 }

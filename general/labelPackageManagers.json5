@@ -3,7 +3,9 @@
   "description": "Labels PRs with the package manager datasource used for updates",
   "packageRules": [
     {
-      "addLabels": ["{{datasource}}"]
+      "addLabels": [
+        "{{lowercase manager}}"
+      ]
     }
   ]
 }

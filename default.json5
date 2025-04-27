@@ -4,9 +4,10 @@
     ":dependencyDashboard",
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
-    ":semanticCommitsDisabled"
+    ":semanticCommitsDisabled",
+//    "github>DenuxPlays/renovate-config//general/splitLockfileMaintenance.json5",
+//    "github>DenuxPlays/renovate-config//general/labelPackageManagers.json5",
   ],
-  "rangeStrategy": "bump",
   "updateLockFiles": true,
   "lockFileMaintenance": {
     "enabled": true,
