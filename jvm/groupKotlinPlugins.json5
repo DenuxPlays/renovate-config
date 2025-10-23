@@ -5,7 +5,7 @@
     {
       "groupName": "kotlin gradle plugins",
       "matchDatasources": [
-        "gradle"
+        "maven"
       ],
       "matchPackageNames": [
         "org.jetbrains.kotlin.jvm",
