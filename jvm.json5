@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "github>DenuxPlays/renovate-config:default.json5",
+    "github>DenuxPlays/renovate-config//jvm/groupKotlinPlugins.json5",
+  ]
+}

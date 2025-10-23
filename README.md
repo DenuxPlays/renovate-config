@@ -21,6 +21,10 @@ To include a configuration, you can reference it in your `renovate.json` file li
 
 ## Configurations
 
+### [all.json5](all.json5)
+
+The config combines all configurations into one.
+
 ### [default.json5](default.json5)
 
 The default and base configuration for Renovate.
@@ -28,6 +32,11 @@ The default and base configuration for Renovate.
 ### [rust.json5](rust.json5)
 
 Configuration specifically for Rust projects.
+
+### [jvm.json5](jvm.json5)
+
+Configuration specifically for JVM projects.  
+Tested with Java, Kotlin and Gradle.
 
 ## Contributions
 
