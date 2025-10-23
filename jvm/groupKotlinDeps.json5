@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Groups all Kotlin Gradle plugins together",
+  "packageRules": [
+    {
+      "groupName": "Kotlin Dependencies",
+      "matchManagers": ["gradle"],
+      "matchPackagePatterns": ["^org\\.jetbrains\\.kotlin"]
+    }
+  ]
+}
