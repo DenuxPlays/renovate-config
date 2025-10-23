@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>DenuxPlays/renovate-config:default.json5"
+    "github>DenuxPlays/renovate-config:all.json5"
   ]
 }
